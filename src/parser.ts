@@ -3,12 +3,12 @@ import { last } from './util';
 import { DtdElement } from './schema';
 import * as BbDom from './bbdom';
 
-interface Warning {
+export interface Warning {
     offendingToken : Tokeniser.Token;
     message: string;
 }
 
-interface ParseResult {
+export interface ParseResult {
     result: BbDom.Node;
     warnings: Warning[];
 }
