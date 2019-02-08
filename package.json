@@ -1,0 +1,15 @@
+{
+  "name": "bbcode",
+  "version": "1.0.0",
+  "description": "Flexible validating BBCode parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.3.1"
+  }
+}
